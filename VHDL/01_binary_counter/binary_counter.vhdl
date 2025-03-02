@@ -61,7 +61,7 @@ begin
                 key_in  => keys(i),
                 key_out => deb_keys(i)
             );
-    end generate edge_det_gen;
+    end generate key_handler_gen;
 
     -- Счетчик, управляющий светодиодами
     counter_inst : entity work.counter
